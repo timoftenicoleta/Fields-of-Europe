@@ -1,0 +1,338 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	background:url(flower2.jpg) no-repeat;
+	background-attachment: fixed;
+}
+.section1{
+	width: 20%;
+	height: 100%;
+	position: fixed;
+	background-color: #24517D;
+}
+	.firstul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		width: 50%;
+		float: right;
+		margin-top: 80%;
+		margin-right: 10%;
+	}
+	.firstul li a{
+		display: block;
+		color: grey;
+		text-decoration: none;
+		text-align: right;
+		font-family: Arial, Helvetica, sans-serif;
+		text-transform: uppercase;
+		font-weight: bold;
+		border-bottom: 3px solid #F2C2F9;
+		padding-bottom: 5px;
+		margin-top: 20%;
+	}
+	.firstul li a:hover {
+		color: white;
+		border-bottom-color: #FF00FF;
+		transition: border-bottom 1s linear;
+		transition: color 1s;
+	}
+	.firstul li a.ative{
+		color:white;
+		border-bottom-color: #FF00FF;
+	}
+.section2{
+	background-size: cover;
+	width:80%;
+	height: 100%;
+	float: right;
+}
+img {
+	object-fit: cover;
+	max-width: 100%;
+    height: auto;
+}
+h1 {
+	color: white;
+	display: inline-block;
+	margin-top:20%;
+	margin-left: 20%;
+}
+ p {
+	color: white;
+	font-weight: bold;
+	margin-left: 20%;
+}
+h1:hover{
+	color:#FF00FF;
+	transition: color 1s;
+}
+#psection1:hover{
+	color:#FF00FF;
+	transition: color 1s;
+}
+#button1 {
+	padding: 10px;
+	border-radius: 50px;
+	background-color: inherit;
+	border:1px solid grey;
+	margin-left: 20%;
+	outline: none;
+}
+button a {
+	text-decoration: none;
+	color: grey;
+}
+
+.section3 {
+	background-color: #24517D;
+	width: 80%;
+	height: 100%;
+	float: right;
+}
+.subsection3 {
+	border:none;
+	margin: 0;
+	height: 33.33%;
+}
+.flowers {
+	float: left;
+	height: auto;
+	max-width: 100%;
+	object-fit: cover;
+	width: 200px;
+	height: 200px;
+	margin-right: 5%;
+}
+.h2 {
+	color:white;
+	display: inline-block;
+}
+button {
+	padding: 10px;
+	border-radius: 50px;
+	background-color: inherit;
+	border:1px solid grey;
+}
+.section4 {
+	background-color: #e600e6;
+	height: auto;
+	width: 80%;
+	float: right;
+}
+.psection4 {
+	margin-left: 5%;
+	font-weight: normal;
+	color: #f2f2f2;
+}
+#whatwedo {
+	margin-left: 5%;
+	color: white;
+
+}
+table {
+	border-collapse: collapse;
+	width: 80%;
+	height: auto;
+	margin:auto;
+	text-align: center;
+	margin-bottom: 1%;
+}
+table, th, td {
+	border:1px solid grey;
+}
+td{
+	padding:2%;
+}
+.ptable {
+	font-weight: normal;
+	white-space: normal;
+	color: #f2f2f2;
+	margin-left: 0;
+}
+i {
+	display: inline-block;
+	vertical-align: middle;
+	color: white;
+}
+h3 {
+	vertical-align: middle;
+	color: white;
+	display: inline-block;
+}
+.section5 {
+	float: right;
+	width: 80%;
+	height: 80%; 
+}
+#formular{
+	width: 60%;
+	height: auto;
+	border-right: 1px solid grey;
+	float: left;
+	display: inline-block;
+	margin-left: 5%;
+}
+form{
+	width: 100%;
+	height: 100%;
+}
+.field1 {
+	display: inline-block;
+	float: left;
+	width: 46%;
+	margin-right: 3%;
+	margin-bottom: 4%;
+}
+.field2 {
+	display: inline-block;
+	width: 46%;
+	margin-right: 3%;
+	margin-bottom: 4%;
+}
+label {
+	color:white;
+	font-weight: bold;
+}
+input{
+	border: 2px solid grey;
+	margin-top: 4%;
+	border-radius: 5px;
+	height: 30px;
+	width: 90%;
+	padding: 0 1px;
+	color: white;
+	background-color: inherit;
+	outline: none;
+}
+input:focus {
+	border:3px solid white;
+}
+.message{
+	margin-right: 3%;
+	width: 96%;
+
+}
+textarea {
+	width: 93%;
+	color:white;
+	background-color: inherit;
+	border: 2px solid grey;
+	border-radius: 5px;
+	margin-top: 4%;
+	outline: none;
+	
+}
+textarea:focus {
+	border: 3px solid white;
+}
+input[type=submit] {
+	width: 30%;
+	font-weight: bold;
+}
+#contact {
+	width: 30%;
+	height: auto;
+	display: inline-block;
+	float: right;
+	border: none;
+	margin-right: 2%;
+}
+#contact ul {
+	width: 100%;
+	height: 60%;
+	margin: 0;
+	padding: 0;
+}
+.secondul li{
+	margin: 0;
+	list-style-type: none;
+	width: 100%;
+	padding: 0;
+	border-bottom: none;
+	color: white;
+}
+.secondul li a {
+	text-decoration: none;
+}
+.social li {
+	display: inline;
+}
+.social i{
+	color: grey;
+}
+.social i:hover{
+	color: white;
+}
+.footer {
+	float: right;
+	width: 80%;
+	height: 20%;
+	border-top: 1px solid grey;
+	margin-top: 1%;
+}
+.footer p {
+	font-weight: lighter;
+	color: grey;
+	margin-left: 1%;
+	font-size: 12px;
+}
+@media screen and (max-width: 768px){
+	
+	.s1 {
+		display: none;
+	}
+	.s2, .s3, .s4, .s5 {
+		width: 100%;
+		float: none;
+	}
+	.s5, .s4, .s3 {
+		height: auto;
+	}
+	#formular {
+		width: 100%;
+		border-right: none;
+		float: none;
+		display: block;
+	}
+	#contact {
+		margin-top: 1%;
+		border-top: 1px solid grey;
+		width: 100%;
+		float: none;
+		margin-left: 5%;
+
+	}
+	.field1 {
+		display: block;
+		width: 100%;
+	}
+	.field2 {
+		display: block;
+		width: 100%;
+
+	}
+	.footer {
+		width: 100%;
+		float: none;
+	}
+	.subsection3 {
+		height: auto;
+		padding-bottom: 1%;
+	}
+	.flowers {
+		width: 100%;
+		margin: 0;
+	}
+	p, h2, button, h1, #button1 {
+		margin-left: 5%;
+	}
+	
+}
