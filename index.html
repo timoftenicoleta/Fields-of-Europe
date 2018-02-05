@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width,initial=scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="index.js"></script>
 </head>
 <body>
 	<div class="section1 s1">
@@ -19,26 +20,26 @@
 	<div id="sec2" class="section2 s2">
 		<h1> Fields of Europe</h1>
 		<p id="psection1">Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-		<button id="button1"><a href="#"> Learn more</a></button>
+		<button id="button1"><a href=""> Learn more</a></button>
 	</div>
 	<div id="sec3" class="section3 s3">
 		<div class="subsection3">
 			<img src="picture1.jpg" class="flowers" alt="flower">
 			<h2 class="h2">Sed ipsum dolor</h2>
 			<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-			<button><a href="#"> Learn more</a></button>
+			<button><a href=""> Learn more</a></button>
 		</div>
 		<div class="subsection3">
 			<img src="picture2.jpg" class="flowers" alt="flower">
 			<h2 class="h2">Feugiat consequat</h2>
 			<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-			<button><a href="#"> Learn more</a></button>
+			<button><a href=""> Learn more</a></button>
 		</div>
 		<div class="subsection3">
 			<img src="picture3.jpg" class="flowers" alt="flower">
 			<h2 class="h2">Sed ipsum dolor</h2>
 			<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-			<button><a href="#"> Learn more</a></button>
+			<button><a href=""> Learn more</a></button>
 		</div>
 	</div>
 	<div id="sec4" class="section4 s4"><br><br>
@@ -88,20 +89,20 @@
 		<h2 id="whatwedo">Get in touch</h2>
 		<p class="psection4">Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
 		<div id="formular">
-			<form>
+			<form method="Get" action="">
 				<div class="field1" >
 					<label for="Name">Name</label><br>
-					<input type="text" name="name">
+					<input class="name-input" type="text" name="name">
 				</div>
 				<div class="field2">
 					<label for="Email">Email</label><br>
-					<input type="text" name="email">
+					<input class="email-input" type="text" name="email">
 				</div>
 				<div class="message">
 					<label for="message">Message</label><br>
-					<textarea name="message" rows="10"></textarea>
+					<textarea class="mesaj-input" rows="10"></textarea>
 				</div>
-				<input type="submit" value="Send message">
+				<input onclick="ale()" type="submit" value="Send message">
 			</form>
 		</div>
 		<div id="contact">
